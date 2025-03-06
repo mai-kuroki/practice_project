@@ -3,44 +3,34 @@ package basic.q06;
 public class ShowSeasons {
 
 	public static void main(String[] args) {
-		int month = 1;
+		int month = 4;
 		String season = "";
 		switch (month) {
+		case 12:
 		case 1:
-
 		case 2:
-			season = month + "月は冬です。";
+			season = "冬";
 			break;
 		case 3:
-
 		case 4:
-
 		case 5:
-			season = month + "月は春です。";
+			season = "春";
 			break;
 		case 6:
-
 		case 7:
-
 		case 8:
-			season = month + "月は夏です。";
+			season = "夏";
 			break;
 		case 9:
-
 		case 10:
-
 		case 11:
-			season = month + "月は秋です。";
-			break;
-		case 12:
-			season = month + "月は冬です。";
+			season = "秋";
 			break;
 		case 13:
-			season = month + "月は存在しないです。";
+			season = "存在しない";
 			break;
 		}
-		System.out.println(season);
-
+		System.out.println(month + "月は" + season + "です。");
 	}
 
 }
