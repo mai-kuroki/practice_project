@@ -2,14 +2,16 @@ package method.q05;
 
 public class Triangle {
 	public static void main(String[] args) {
-		int triangle = getTriangleArea(8, 5);
+		int bottom = 8;
+		int height = 5;
+		int triangle = getTriangleArea(bottom, height);
+		System.out.println("底辺：" + bottom);
+		System.out.println("高さ：" + height);
 		System.out.println("三角形の面積：" + triangle);
 	}
 
-	public static int getTriangleArea(int a, int b) {
-		System.out.println("底辺：" + a);
-		System.out.println("高さ：" + b);
+	public static int getTriangleArea(int bottom, int height) {
 
-		return a * b / 2;
+		return bottom * height / 2;
 	}
 }

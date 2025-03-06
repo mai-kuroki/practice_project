@@ -2,16 +2,17 @@ package method.q08;
 
 public class SumLoop {
 	public static void main(String[] args) {
-		int sum = sumLoop(1, 100);
+		int minNum = 1;
+		int maxNum = 100;
+		int sum = sumLoop(minNum, maxNum);
+		System.out.println("最小値：" + minNum);
+		System.out.println("最大値：" + maxNum);
 		System.out.println("加算結果：" + sum);
 	}
 
-	public static int sumLoop(int a, int b) {
-		System.out.println("最小値：" + a);
-		System.out.println("最大値：" + b);
-
+	public static int sumLoop(int minNum, int maxNum) {
 		int sum = 0;
-		for (int i = a; i <= b; i++) {
+		for (int i = minNum; i <= maxNum; i++) {
 			sum += i;
 		}
 		return sum;
