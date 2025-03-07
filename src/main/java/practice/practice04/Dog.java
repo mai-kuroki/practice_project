@@ -1,4 +1,4 @@
-package practice04;
+package practice.practice04;
 
 public class Dog extends Animal {
 	private String furColor;

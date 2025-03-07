@@ -1,4 +1,4 @@
-package practice04;
+package practice.practice04;
 
 public class Animal {
 	private String name;
