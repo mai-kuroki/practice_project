@@ -3,15 +3,17 @@ package practice.practice01;
 public class EmployeeTest {
 
 	public static void main(String[] args) {
-		Employee employee1 = new Employee();
-		Employee employee2 = new Employee();
-		employee1.name = "山田";
-		employee1.age = 20;
-		employee2.name = "鈴木";
-		employee2.age = 30;
-		employee1.showInfo();
+		Employee e1 = new Employee();
+		e1.name = "山田";
+		e1.age = 20;
+		e1.showInfo();
+
 		System.out.println("----------");
-		employee2.showInfo();
+
+		Employee e2 = new Employee();
+		e2.name = "鈴木";
+		e2.age = 30;
+		e2.showInfo();
 	}
 
 }

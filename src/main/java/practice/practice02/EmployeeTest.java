@@ -10,7 +10,6 @@ public class EmployeeTest {
 
 		System.out.println("氏名：" + employee.getName());
 		System.out.println("年齢：" + employee.getAge());
-
 	}
 
 }

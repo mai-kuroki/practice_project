@@ -2,8 +2,10 @@ package practice.practice02;
 
 public class Employee {
 	private String name;
-
 	private int age;
+
+	public Employee() {
+	}
 
 	public String getName() {
 		return name;
@@ -20,4 +22,5 @@ public class Employee {
 	public void setAge(int age) {
 		this.age = age;
 	}
+
 }
